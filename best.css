@@ -186,11 +186,11 @@ tr:nth-child(even) {
 
 /* Hover effect */
 tr:hover {
-  background-color: lightcoral; /* light blue highlight */
+  background-color: lightblue; /* light blue highlight */
   transition: 0.2s ease-in-out;
 }
 
-/* Responsive tweak */
+/* Responsive tweak 
 @media (max-width: 768px) {
   table {
     font-size: 14px;
@@ -198,7 +198,7 @@ tr:hover {
   td, th {
     padding: 8px;
   }
-}
+}*/
 
 
 
