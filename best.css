@@ -123,7 +123,7 @@ img{
 
 .card h3{
     font-size: 1.5rem;
-    color: #2f7d32;
+    color: red;
     margin-bottom: 15px;
 }
 
@@ -148,5 +148,58 @@ img{
     background: #256528;
     transform: scale(1.03);
 }
+
+.card p{
+  color: lightskyblue;
+}
+
+
+ /* General table styling */
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px black;
+}
+
+/* Table header */
+th {
+  background-color: #343a40; /* dark gray like Bootstrap navbar */
+  color: #ffffff;
+  text-align: left;
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* Table cells */
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: lightcoral; /* light blue highlight */
+  transition: 0.2s ease-in-out;
+}
+
+/* Responsive tweak */
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+  td, th {
+    padding: 8px;
+  }
+}
+
+
 
 
