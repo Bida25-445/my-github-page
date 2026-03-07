@@ -67,7 +67,7 @@ a:hover{
 }
 
 img{
-  border: 5px solid blue;
+  border: 5px solid grey;
   border-radius: 10px;
 }
   container my-5{
@@ -199,6 +199,11 @@ tr:hover {
     padding: 8px;
   }
 }*/
+
+span.logo{
+  color: white;
+  background-color: black;
+}
 
 
 
